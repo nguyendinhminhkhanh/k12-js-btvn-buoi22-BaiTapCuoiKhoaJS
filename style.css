@@ -1,0 +1,41 @@
+.container{
+    position: absolute;
+    padding: 20px;
+    background: linear-gradient(45deg,#c6ffdd 20%, #fbd786 60%, #f7797d 90%);
+    right: 50%;
+    transform: translateX(50%);
+    text-align: center;
+    border-radius:10px;
+    border: 1px solid #333;
+}
+.form{
+    width: 400px;
+}
+input{
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+}
+.error-message{
+    color: red;
+    height: 20px;
+    padding-bottom: 10px;
+
+}
+table{
+    width: 100%;
+}
+td,th{
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+}
+th{
+    background: #f7797d;
+}
+td{
+    background: #fbd786;
+}
+.button{
+    height: 30px;
+}
